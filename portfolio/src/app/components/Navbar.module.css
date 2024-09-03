@@ -1,0 +1,39 @@
+.bar {
+  height: 90px;
+  background-color: rgb(235, 235, 235);
+  display: flex;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  z-index: 10;
+  box-shadow: 0 6px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.bar_inter {
+  width: 70%;
+  margin-left: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bar_right{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name,
+.menu{
+    text-decoration: none;
+    color: black;
+}
+
+.name{
+    font-size: 28px;
+}
+
+.menu{
+    font-size: 18px;
+}
