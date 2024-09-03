@@ -20,7 +20,7 @@ export default function Contato() {
                 alt="likedin logo"
               />
             </Link>
-            <Link href={""} target="blank">
+            <Link href={"https://github.com/RodolphoStraub"} target="blank">
               <img className={styles.logo} src="github.png" alt="github logo" />
             </Link>
             <Link

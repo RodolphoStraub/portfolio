@@ -29,6 +29,10 @@
     margin-top: 50px;
 }
 
+.logo:hover{
+    transform: scale(1.1);
+}
+
 
 .bottom{
     font-size: 18px;

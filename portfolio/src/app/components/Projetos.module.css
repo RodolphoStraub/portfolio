@@ -6,7 +6,8 @@
 
 .headline {
   text-transform: uppercase;
-  padding: 25px;
+  padding: 25px 0;
+  margin-left: 5%;
 }
 
 .sub_all {
@@ -28,7 +29,13 @@
 .descrition {
   text-align: justify;
   margin-bottom: 30px;
+  text-indent: 20px;
 }
+
+.tech {
+  font-weight: bold;
+}
+
 
 .right_side {
   width: 45%;
