@@ -7,16 +7,17 @@ export default function Sobre() {
     <>
       <div id="/#" className={styles.all}>
         <div className={styles.left_side}>
-          <h1 className={styles.title}>Desenvolvedor<br/> Front End.</h1>
+          <h1 className={styles.title}>
+            Desenvolvedor
+            <br /> Front End.
+          </h1>
           <p className={styles.text}>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
-            totam deserunt explicabo expedita aspernatur dolorem vitae. Libero
-            obcaecati error aut doloremque dolore harum, modi distinctio tenetur
-            iste id quaerat aperiam.
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
-            totam deserunt explicabo expedita aspernatur dolorem vitae. Libero
-            obcaecati error aut doloremque dolore harum, modi distinctio tenetur
-            iste id quaerat aperiam.
+            Sempre gostei de coisas que instigassem minha curiosidade e
+            criatividade, me fazendo exercitar processos criativos de diversas
+            formas, junto com diferentes tecnologias. Estou em busca de
+            oportunidade para continuar aprendendo e crescer profissionalmente,
+            contribuindo com a comunidade e com colegas de trabalho. Curso
+            Análise e Desenvolvimento de Sistemas pela Estácio.
           </p>
         </div>
         <div className={styles.right_side}>
