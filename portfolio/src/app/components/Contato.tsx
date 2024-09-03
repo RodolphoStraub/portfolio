@@ -10,28 +10,23 @@ export default function Contato() {
             <h1>Contatos</h1>
           </div>
           <div className={styles.links}>
-            <Link href={""}>
+            <Link
+              target="blank"
+              href={"https://www.linkedin.com/in/rodolpho-straub-8728b0206/"}
+            >
               <img
                 className={styles.logo}
-                src="whatasapp.png"
-                alt="whatsapp logo"
+                src="linkedin.png"
+                alt="likedin logo"
               />
             </Link>
-            <Link href={""}>
-              <img
-                className={styles.logo}
-                src="whatasapp.png"
-                alt="whatsapp logo"
-              />
+            <Link href={""} target="blank">
+              <img className={styles.logo} src="github.png" alt="github logo" />
             </Link>
-            <Link href={""}>
-              <img
-                className={styles.logo}
-                src="whatasapp.png"
-                alt="whatsapp logo"
-              />
-            </Link>
-            <Link href={""}>
+            <Link
+              target="blank"
+              href={`https://wa.me/55024992559010?text=Olá, vi o seu portfólio e gostaria de falar com você!`}
+            >
               <img
                 className={styles.logo}
                 src="whatasapp.png"
