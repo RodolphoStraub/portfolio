@@ -6,10 +6,14 @@ import Link from "next/link";
 export default function Sobre() {
   return (
     <>
-      <div className={styles.all}>
+      <div id="/#" className={styles.all}>
         <div className={styles.left_side}>
           <h1 className={styles.title}>Desenvolvedor<br/> Front End</h1>
           <p className={styles.text}>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
+            totam deserunt explicabo expedita aspernatur dolorem vitae. Libero
+            obcaecati error aut doloremque dolore harum, modi distinctio tenetur
+            iste id quaerat aperiam.
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
             totam deserunt explicabo expedita aspernatur dolorem vitae. Libero
             obcaecati error aut doloremque dolore harum, modi distinctio tenetur

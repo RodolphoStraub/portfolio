@@ -1,30 +1,37 @@
 .all{
     width: 70%;
     margin-left: 15%;
-    margin-top: 140px;
+    margin-top: 90px;
     display: flex;
     flex-direction: row;
+    border-bottom: 2px solid rgb(147, 206, 255);
+    border-right: 2px solid rgb(147, 206, 255);
 }
 
 .left_side{
-    width: 70%;
+    width: 60%;
+    margin-top: 100px;
+    margin-right: 5%;
+    margin-left: 5%;
     display: flex;
     flex-direction: column;
 }
 
 .title{
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .text{
     margin-bottom: 30px;
+    text-align: justify;
 }
 
 .links{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-top: 30px;
 }
 
 .logo{
@@ -34,10 +41,16 @@
 
 .right_side{
     display: flex;
+    margin-top: 100px;
 }
 
 .picture{
-    width: 450px;
-    height: 450px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+.logo:hover{
+    transform: scale(1.1);
 }

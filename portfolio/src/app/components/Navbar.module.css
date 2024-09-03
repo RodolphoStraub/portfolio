@@ -1,6 +1,6 @@
 .bar {
   height: 90px;
-  background-color: rgb(235, 235, 235);
+  background-color: rgb(147, 206, 255);
   display: flex;
   position: fixed;
   top: 0px;
@@ -36,4 +36,8 @@
 
 .menu{
     font-size: 18px;
+}
+
+.menu:hover{
+  border-bottom: 1px solid blue;
 }
