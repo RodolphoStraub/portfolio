@@ -8,7 +8,7 @@ export default function Projetos() {
         <div className={styles.headline}>
           <h1 className={styles.title}>Projetos</h1>
         </div>
-        <div className={styles}>
+        <div className={styles.container}>
           <div className={styles.sub_all}>
             <div className={styles.left_side}>
               <h1 className={styles.sub_title}>Graph-it</h1>
@@ -22,7 +22,7 @@ export default function Projetos() {
               <p className={styles.tech}>Next.js - CSS - JavaScript </p>
             </div>
             <div className={styles.right_side}>
-              <Link href={"https://www.google.com/"} target="blank">
+              <Link href={"https://github.com/RodolphoStraub/Graph-it.git"} target="blank">
                 <img
                   className={styles.picture}
                   src="linkedin.png"
@@ -33,7 +33,7 @@ export default function Projetos() {
           </div>
           <div className={styles.sub_all}>
             <div className={styles.left_side}>
-              <Link href={"https://www.google.com/"} target="blank">
+              <Link href={"https://github.com/RodolphoStraub/Dragonball-API.git"} target="blank">
                 <img
                   className={styles.picture}
                   src="linkedin.png"
@@ -64,7 +64,7 @@ export default function Projetos() {
               <p className={styles.tech}>ReactJS - CSS</p>
             </div>
             <div className={styles.right_side}>
-              <Link href={"https://www.google.com/"} target="blank">
+              <Link href={"https://github.com/RodolphoStraub/interiorbrnext.git"} target="blank">
                 <img
                   className={styles.picture}
                   src="linkedin.png"
