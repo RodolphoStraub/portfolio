@@ -217,87 +217,219 @@
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/components/Navbar.module.css ***!
   \********************************************************************************************************************************************************************************************************************************************************************************/
 .Navbar_bar__RLdzy {
-  height: 90px;
   background-color: rgb(147, 206, 255);
-  display: flex;
+  width: 100%;
   position: fixed;
   top: 0px;
   right: 0px;
   left: 0px;
-  z-index: 10;
   box-shadow: 0 6px 4px 0 rgba(0, 0, 0, 0.2);
+  z-index: 100;
 }
 
-.Navbar_bar_inter__wdH2f {
-  width: 70%;
-  margin-left: 15%;
+.Navbar_barinter__dfBQg {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: space-between;
+  width: 70%;
+  height: 120px;
+  margin-left: 15%;
 }
 
-.Navbar_bar_right__PeywW {
-  width: 30%;
+.Navbar_logo__eWcuJ {
+  cursor: pointer;
+  height: auto;
+  text-transform: uppercase;
+}
+
+.Navbar_navbar__X_TPc {
+  font-size: 26px;
+  transition: 0.4s;
+  text-transform: uppercase;
+}
+
+.Navbar_navbar_inter__qAQ7r {
   display: flex;
-  justify-content: space-between;
+  gap: 100px;
+  border-bottom: 2px solid transparent;
+  color: black;
 }
 
-.Navbar_name__1IBMn,
-.Navbar_menu__l7gfV {
+.Navbar_logo__eWcuJ{
+  font-size: 30px;
+  color: black;
+  text-decoration: none;
+}
+
+.Navbar_link__36SAs {
+  font-size: 26px;
+  text-transform: uppercase;
   text-decoration: none;
   color: black;
 }
 
-.Navbar_name__1IBMn {
-  font-size: 28px;
+.Navbar_link__36SAs:hover {
+  cursor: pointer;
 }
 
-.Navbar_menu__l7gfV {
-  font-size: 18px;
+.Navbar_bar__RLdzy .Navbar_open_nav__DinZS {
+  display: none;
 }
 
-.Navbar_menu__l7gfV:hover {
-  border-bottom: 1px solid blue;
+.Navbar_hidden_nav___tfUe {
+  visibility: hidden;
 }
 
 @media (max-width: 1440px) {
+  .Navbar_bar__RLdzy {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    box-shadow: 0 6px 4px 0 rgba(0, 0, 0, 0.2);
+    z-index: 100;
+  }
+
+  .Navbar_barinter__dfBQg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 120px;
+    margin-left: 15%;
+    list-style: none;
+  }
+
+  .Navbar_navbar_inter__qAQ7r {
+    gap: 50px;
+  }
 }
 
 @media (max-width: 1024px) {
-  .Navbar_bar_right__PeywW {
-    width: 50%;
+  .Navbar_logo__eWcuJ {
+    font-size: 28px;
   }
 
-  .Navbar_name__1IBMn {
-    font-size: 26px;
+  .Navbar_link__36SAs {
+    font-size: 22px;
   }
 
-  .Navbar_menu__l7gfV {
-    font-size: 16px;
+  .Navbar_navbar_inter__qAQ7r {
+    font-size: 20px;
+    gap: 20px;
   }
+
 }
 
 @media (max-width: 768px) {
-  .Navbar_bar_right__PeywW {
-    width: 50%;
+  .Navbar_bar__RLdzy {
+    position: fixed;
   }
 
-  .Navbar_name__1IBMn {
+  .Navbar_hidden_nav___tfUe {
+    visibility: visible;
+    height: 100vh;
+  }
+
+  .Navbar_barinter2__q3vAT{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin-top: 150px;
+    gap: 150px;
+  }
+
+  .Navbar_logo__eWcuJ {
+    margin-bottom: 0px;
+    cursor: pointer;
+    width: 110px;
+    height: auto;
+  }
+
+  .Navbar_navbar__X_TPc {
+    display: none;
+  }
+
+  .Navbar_bartext__KeFtf {
     font-size: 26px;
   }
 
-  .Navbar_menu__l7gfV {
-    font-size: 16px;
+  .Navbar_bar__RLdzy .Navbar_open_nav__DinZS {
+    display: block;
+    visibility: visible;
+  }
+
+  .Navbar_hidden_nav___tfUe .Navbar_link__36SAs {
+    font-size: 26px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
   }
 }
 
 @media (max-width: 425px) {
+  .Navbar_bar__RLdzy {
+    position: fixed;
+  }
+
+  .Navbar_hidden_nav___tfUe {
+    visibility: visible;
+    height: 100vh;
+  }
+
+  .Navbar_barinter2__q3vAT{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin-top: 150px;
+    gap: 150px;
+  }
+
+  .Navbar_logo__eWcuJ {
+    margin-bottom: 0px;
+    cursor: pointer;
+    width: 110px;
+    height: auto;
+  }
+
+  .Navbar_navbar__X_TPc {
+    display: none;
+  }
+
+  .Navbar_bartext__KeFtf {
+    font-size: 26px;
+  }
+
+  .Navbar_bar__RLdzy .Navbar_open_nav__DinZS {
+    display: block;
+    visibility: visible;
+  }
+
+  .Navbar_hidden_nav___tfUe .Navbar_link__36SAs {
+    font-size: 26px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+  }
 }
 
 @media (max-width: 375px) {
+  .Navbar_hidden_nav___tfUe {
+    visibility: visible;
+    height: 110vh;
+  }
 }
 
 @media (max-width: 320px) {
+  .Navbar_hidden_nav___tfUe {
+    visibility: visible;
+    height: 120vh;
+  }
 }
 
 /*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
