@@ -18,6 +18,10 @@
   flex-direction: column;
 }
 
+.headline {
+  width: 100%;
+}
+
 .title {
   text-transform: uppercase;
   margin-bottom: 30px;
@@ -29,16 +33,8 @@
   text-indent: 20px;
 }
 
-.links {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  margin-top: 30px;
-}
-
-.logo {
-  width: 50px;
-  height: auto;
+.bold {
+  font-weight: 700;
 }
 
 .right_side {
@@ -55,6 +51,117 @@
   box-shadow: 20px 30px 14px 0 rgba(0, 0, 0, 0.2);
 }
 
-.logo:hover {
-  transform: scale(1.1);
+@media (max-width: 1440px) {
+  .picture {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .left_side {
+    margin-top: 50px;
+  }
+
+  .headline {
+    width: 100%;
+    text-align: center;
+  }
+
+  .right_side {
+    display: flex;
+    margin-top: 180px;
+    margin-right: 50px;
+  }
+
+  .picture {
+    width: 280px;
+    height: 280px;
+  }
+}
+
+@media (max-width: 768px) {
+  .all {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .headline {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .left_side {
+    width: 90%;
+    margin-top: 50px;
+    margin-right: 10%;
+    margin-left: 5%;
+  }
+
+  .right_side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 425px) {
+  .all {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .headline {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .left_side {
+    width: 90%;
+    margin-top: 50px;
+    margin-right: 10%;
+    margin-left: 5%;
+  }
+
+  .right_side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 10%;
+  }
+
+  .picture {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 375px) {
+  .all {
+    width: 110%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .picture {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+@media (max-width: 320px) {
+  .all {
+    width: 130%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .picture {
+    width: 180px;
+    height: 180px;
+  }
 }

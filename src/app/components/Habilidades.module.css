@@ -38,3 +38,46 @@
   margin-left: 20px;
   list-style-type: circle;
 }
+
+@media (max-width: 1024px){
+  .sub_title {
+    font-size: 25px;
+  }
+
+  .title li {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px){
+  .headline {
+    font-size: 30px;
+    margin-left: 5%;
+  }
+
+  .sub_title {
+    font-size: 22px;
+  }
+
+  .title li {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 425px){
+  .all {
+    width: 100%;
+  }
+}
+
+@media (max-width: 375px){
+  .all {
+    width: 110%;
+  }
+}
+
+@media (max-width: 320px){
+  .all {
+    width: 120%;
+  }
+}

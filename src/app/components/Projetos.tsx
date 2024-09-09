@@ -20,12 +20,18 @@ export default function Projetos() {
                 das tecnologias usadas.
               </p>
               <p className={styles.tech}>Next.js - CSS - JavaScript </p>
+              <Link
+                href={"https://github.com/RodolphoStraub/Graph-it"}
+                target="blank"
+              >
+                <button className={styles.btn}>{"</>"}</button>
+              </Link>
             </div>
             <div className={styles.right_side}>
               <Link href={"/graph-it"} target="blank">
                 <img
                   className={styles.picture}
-                  src="linkedin.png"
+                  src="graph-it cover.png"
                   alt="Foto do projeto"
                 />
               </Link>
@@ -36,7 +42,7 @@ export default function Projetos() {
               <Link href={"/dragonball"} target="blank">
                 <img
                   className={styles.picture}
-                  src="linkedin.png"
+                  src="dbz cover.png"
                   alt="Foto do projeto"
                 />
               </Link>
@@ -49,6 +55,12 @@ export default function Projetos() {
                 do layout, como a aplicação de TypeScript.
               </p>
               <p className={styles.tech}>Next.js - CSS - TypeScript</p>
+              <Link
+                href={"https://github.com/RodolphoStraub/Dragonball-API"}
+                target="blank"
+              >
+                <button className={styles.btn}>{"</>"}</button>
+              </Link>
             </div>
           </div>
           <div className={styles.sub_all}>
@@ -62,12 +74,18 @@ export default function Projetos() {
                 atenção aos projetos arquitetônicos.
               </p>
               <p className={styles.tech}>ReactJS - CSS</p>
+              <Link
+                href={"https://github.com/RodolphoStraub/interiorbrnext"}
+                target="blank"
+              >
+                <button className={styles.btn}>{"</>"}</button>
+              </Link>
             </div>
             <div className={styles.right_side}>
               <Link href={"/interiorbr"} target="blank">
                 <img
                   className={styles.picture}
-                  src="linkedin.png"
+                  src="interior cover.png"
                   alt="Foto do projeto"
                 />
               </Link>
