@@ -240,6 +240,7 @@
   cursor: pointer;
   height: auto;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .Navbar_navbar__X_TPc {
@@ -255,10 +256,14 @@
   color: black;
 }
 
-.Navbar_logo__eWcuJ{
+.Navbar_logo__eWcuJ {
   font-size: 30px;
   color: black;
   text-decoration: none;
+}
+
+.Navbar_logo__eWcuJ:hover {
+  transform: scale(1.05);
 }
 
 .Navbar_link__36SAs {
@@ -269,7 +274,10 @@
 }
 
 .Navbar_link__36SAs:hover {
+  font-weight: 450;
   cursor: pointer;
+  transform: scale(1.05);
+  border-bottom: 2px solid blue;
 }
 
 .Navbar_bar__RLdzy .Navbar_open_nav__DinZS {
@@ -319,7 +327,6 @@
     font-size: 20px;
     gap: 20px;
   }
-
 }
 
 @media (max-width: 768px) {
@@ -332,7 +339,7 @@
     height: 100vh;
   }
 
-  .Navbar_barinter2__q3vAT{
+  .Navbar_barinter2__q3vAT {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -380,7 +387,7 @@
     height: 100vh;
   }
 
-  .Navbar_barinter2__q3vAT{
+  .Navbar_barinter2__q3vAT {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -467,6 +474,7 @@
   text-align: justify;
   margin-bottom: 30px;
   text-indent: 20px;
+  line-height: 22px;
 }
 
 .Projetos_tech__7gWhW {
@@ -701,6 +709,7 @@
   margin-bottom: 30px;
   text-align: justify;
   text-indent: 20px;
+  line-height: 22px;
 }
 
 .Sobre_bold__qAT4j {
