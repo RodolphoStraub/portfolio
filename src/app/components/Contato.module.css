@@ -94,32 +94,51 @@
 }
 
 @media (max-width: 375px) {
-    .all{
-        width: 135%;
-    }
-    .links {
-        width: 500px;
-      }
+  .all{
+    width: 100%;
+}
 
-    .logo {
-        width: 40px;
-        height: auto;
-        margin-top: 40px;
-      }
+.headline{
+  font-size: 11px;
+}
+
+.links {
+    width: 300px;
+  }
+
+.logo {
+    width: 35px;
+    height: auto;
+    margin-top: 40px;
+  }
+
+  .bottom {
+    font-size: 11px;
+    margin-top: 50px;
+  }
 }
 
 @media (max-width: 320px) {
     .all{
-        width: 150%;
+        width: 100%;
+    }
+
+    .headline{
+      font-size: 11px;
     }
     
     .links {
-        width: 400px;
+        width: 300px;
       }
 
     .logo {
-        width: 40px;
+        width: 35px;
         height: auto;
         margin-top: 40px;
+      }
+
+      .bottom {
+        font-size: 11px;
+        margin-top: 50px;
       }
 }
