@@ -6,6 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Straub Portfolio",
+  viewport: 'width=device-width, initial-scale=1.0'
 };
 
 export default function RootLayout({

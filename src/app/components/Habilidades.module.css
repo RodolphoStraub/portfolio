@@ -69,6 +69,13 @@
     width: 100%;
   }
 
+  .sub_all {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 5%;
+  }
+
   .headline {
     font-size: 32px;
   }

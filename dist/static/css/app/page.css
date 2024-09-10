@@ -220,6 +220,13 @@
     width: 100%;
   }
 
+  .Habilidades_sub_all__va9zc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 5%;
+  }
+
   .Habilidades_headline__ryWga {
     font-size: 32px;
   }
