@@ -39,7 +39,7 @@
   margin-top: 80px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1140px) and (min-width: 1024px) {
   .all {
     height: auto;
   }
@@ -66,47 +66,58 @@
   }
 }
 
-@media (max-width: 768px) {
-    .links {
-        width: 600px;
-      }
+@media (max-width: 1024px) and (min-width: 768px) {
+  .all {
+    height: auto;
+  }
 
-    .logo {
-        width: 40px;
-        height: auto;
-        margin-top: 40px;
-      }
+  .links {
+    width: 600px;
+  }
+
+  .logo {
+    width: 40px;
+    height: auto;
+    margin-top: 40px;
+  }
 }
 
-@media (max-width: 425px) {
-    .all{
-        width: 130%;
-    }
-    .links {
-        width: 500px;
-      }
-
-    .logo {
-        width: 40px;
-        height: auto;
-        margin-top: 40px;
-      }
-}
-
-@media (max-width: 375px) {
-  .all{
+@media (max-width: 768px) and (min-width: 425px) {
+  .all {
+    height: auto;
     width: 100%;
+  }
+  .links {
+    width: 400px;
+  }
+
+  .logo {
+    width: 40px;
+    height: auto;
+    margin-top: 40px;
+  }
+
+  .bottom {
+    font-size: 13px;
+    margin-top: 50px;
+  }
 }
 
-.headline{
-  font-size: 11px;
-}
+@media (max-width: 425px) and (min-width: 375px) {
+  .all {
+    height: auto;
+    width: 100%;
+  }
 
-.links {
+  .headline {
+    font-size: 11px;
+  }
+
+  .links {
     width: 300px;
   }
 
-.logo {
+  .logo {
     width: 35px;
     height: auto;
     margin-top: 40px;
@@ -118,27 +129,29 @@
   }
 }
 
-@media (max-width: 320px) {
-    .all{
-        width: 100%;
-    }
+@media (max-width: 375px) and (min-width: 320px) {
+  .all {
+    height: auto;
 
-    .headline{
-      font-size: 11px;
-    }
-    
-    .links {
-        width: 300px;
-      }
+    width: 100%;
+  }
 
-    .logo {
-        width: 35px;
-        height: auto;
-        margin-top: 40px;
-      }
+  .headline {
+    font-size: 11px;
+  }
 
-      .bottom {
-        font-size: 11px;
-        margin-top: 50px;
-      }
+  .links {
+    width: 300px;
+  }
+
+  .logo {
+    width: 35px;
+    height: auto;
+    margin-top: 40px;
+  }
+
+  .bottom {
+    font-size: 11px;
+    margin-top: 50px;
+  }
 }
